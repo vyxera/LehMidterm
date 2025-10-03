@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEH Midterm</title>
+
+    <style>
+        table, th, td {
+            border-style: solid;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+            transition: 0.5s;
+            max-width: 1000px;
+            border-color: rgb(227, 227, 227);
+        }
+
+        .number {
+            padding: 0 30px;
+        }
+
+        th {
+            background-color: rgb(124, 124, 124);
+        }
+
+        td {
+            will-change: transform;
+            transform: translateZ(0);
+        }
+
+        td:hover {
+            cursor: pointer;
+            background-color: rgb(234, 234, 234);
+            transform: scale(1.1);
+        }
+
+        p, h5 {
+            font-weight: 100;
+            color: rgb(0, 0, 0);
+            max-width: 800px;
+        }
+
+        h5 {
+            margin: 0;
+            padding: 3px 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: 100;
+            transition: 0.5s;
+            padding: 5px;
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            width: fit-content;
+            margin: 0 auto 20px auto;
+            border-radius: 4px;
+        }
+
+        h1:hover {
+            padding: 10px;
+        }
+
+        h3 {
+            color: rgb(0, 0, 0);
+            padding-left: 10px;
+            border-left: 6px solid rgb(124, 124, 124);
+            border-radius: 5px;
+            font-weight: 500;
+            transition: 0.5s;
+        }
+
+        h3:hover {
+            padding-left: 30px;
+            cursor: pointer;
+            box-shadow: 2px 0 0 0 rgb(0, 0, 0);
+        }
+
+        table {
+            margin-left: 4em;
+        }
+
+        p {
+            padding-left: 3em;
+        }
+
+        div {
+            border-style: solid;
+            border-radius: 4px;
+            width: fit-content;
+            border-width: 1px;
+            padding: 5px;
+        }
+
+        body {
+            background-color: rgb(246, 246, 246);
+        }
+
+        .source {
+            padding-left: 1.5em;
+            font-weight: 100;
+            font-style: italic;
+        }
+
+        .justification {
+            font-weight: bold;
+        }
+
+        .link {
+            padding-left: 3em;
+            transition: 0.2s;
+        }
+
+        .link:hover {
+            color: rgb(176, 133, 244);
+            font-size: 16.2px;
+        }
+
+        .break:focus-visible {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <br class="break" />
+
+    <div>
+        <h5>Gabriel Hierro Delgado</h5>
+        <h5>First Year Seminar</h5>
+        <h5>Fully coded by me</h5>
+    </div>
+
+    <h1>LEH Midterm:</h1>
+    <hr/>
+
+    <h3>Reason for Major:</h3>
+    <p>
+        Computer science wasn't always my first choice as a major. If anything, it wasn't one I considered until I was signing up to colleges last year, 2024.
+        Not because it never interested me, but mainly because I never thought about it. I did love computers tho. I loved coding little things every now and then,
+        but I believed that what I wanted to do with my life was acting, or art. But soon that wish became very unrealistic, so I gave it up and I ended up confused.
+        I didn't know what I wanted to do anymore. Until one night speaking with my father about my confusion, he told me I should consider it, because it's something
+        that will be needed always. We will always need programmers. And I thought about it. And he was right, I do love coding, although I didn't do it much
+        I had coded simple beginner games and trained myself on C#. So after realizing that maybe this is the right major for me, I joined a coding club, learned HTML,
+        got a MacBook Pro, best model I could find so it would stay future proof. It was expensive but it was worth it because I love my major, I enjoy doing it,
+        and I feel like I made the best decision by choosing it.
+    </p>
+
+    <h3>Contact List:</h3>
+
+    <table>
+        <tr> 
+            <th>Name</th>
+            <th class="space-needed">Location</th>
+            <th class="number">Number</th>
+            <th>Email</th>
+            <th>Office Hours</th>
+            <th>Reason of Inclusion</th>
+        </tr>
+
+        <tr> 
+            <td>Department of Computer Science</td>
+            <td>Gillet Hall, Room 222-C</td>
+            <td>718-960-5117</td>
+            <td>computer.science@lehman.cuny.edu</td>
+            <td>Wednesday 12-7pm - Thursday 12-3pm</td>
+            <td>They handle core classes, courses, advising, and research opportunities.</td>
+        </tr>
+
+        <tr> 
+            <td>Department of Mathematics</td>
+            <td>Gillet Hall, Room 233-B</td>
+            <td>718-960-8169</td>
+            <td>MSSS.Center.center@lehman.cuny.edu</td>
+            <td>Monday-Friday 9am-5pm</td>
+            <td>The foundation for algorithms, data structures, AI, and everything math-related within software engineering.</td>
+        </tr>
+
+        <tr> 
+            <td>ColorStack x Computer Science Club</td>
+            <td>Lehman Campus</td>
+            <td>845-527-4002</td>
+            <td>colorstacklehman@gmail.com</td>
+            <td>Meetings based</td>
+            <td>Gives me an opportunity to improve my skills and build a portfolio.</td>
+        </tr>
+
+        <tr> 
+            <td>Brian Murphy</td>
+            <td>Gillet Hall, Room 211C</td>
+            <td>718-960-5117</td>
+            <td>brian.murphy@lehman.cuny.edu</td>
+            <td>Tues & Thurs 9:30-10:30am</td>
+            <td>He teaches CMP 428 which is video game programming, which is something I am interested in within my major.</td>
+        </tr>
+
+        <tr> 
+            <td>Matthew Johnson</td>
+            <td>Gillet Hall, Room 137D</td>
+            <td>718-960-8874</td>
+            <td>Matthew.johnson1@lehman.cuny.edu</td>
+            <td>N/A</td>
+            <td>Expertise in Cybersecurity and secure software development. I can seek him for guidance if/when I decide to focus on cybersecurity.</td>
+        </tr>
+    </table>
+
+    <h3>Special interest related to major:</h3>
+    <p>
+        My biggest goal as a programmer is to be good at most important branches of computer science: cybersecurity, network, AI, game development, hardware engineering, etc. 
+        But my main interest or main focus is Software engineering, or web development in other words. Its what I am currently focusing on in college and what I intend on making a future with. 
+        This assignment is an example of this, since I coded the whole thing myself with only knowledge I already had before starting. 
+    </p>
+
+    <h4 class="source">
+        Approaches to Cyber-Resilience through Language System Design David A. Wheeler Nov. 1, 2018
+    </h4>
+    <a class="link" href="https://www.jstor.org/stable/resrep22646" target="_blank">https://www.jstor.org/stable/resrep22646</a>
+    <p><span class="justification">Justification:</span> Speaks about how current software is usually not very secure and offers solutions.</p>
+
+    <h4 class="source">
+        Software-Making and Algorithmic Techniques, Engines of Order: A Mechanology of Algorithmic Techniques, 2020, pp. 81-142
+    </h4>
+    <a class="link" href="https://www.jstor.org/stable/j.ctv12sdvf1.7" target="_blank">https://www.jstor.org/stable/j.ctv12sdvf1.7</a>
+    <p><span class="justification">Justification:</span> Techniques on how to design good software and algorithms.</p>
+
+    <h3>Additional Interest not within Major:</h3>
+    <p>
+        My non-major related interest is storytelling. Ever since the 6th grade I loved writing original stories and I still do to this day. I have over 100 characters and if it's something that's in God's will,
+        I hope to someday create my own graphic novel using my artistic skills and bring the world I've been creating for 7 years to life.
+    </p>
+
+    <hr/>
+    <br/>
+</body>
+</html>
